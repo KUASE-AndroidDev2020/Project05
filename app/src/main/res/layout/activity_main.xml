@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:text="〜あんたの運勢見える化しちゃる★～"
-        android:textSize="24sp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
