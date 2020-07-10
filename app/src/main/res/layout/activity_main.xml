@@ -8,44 +8,8 @@
     android:scrollbarSize="10dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="584dp"
-        android:background="#ffc6ff"
-        android:text="占い"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="448dp"
-        android:background="#bdb2ff"
-        android:text="心理テスト"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="308dp"
-        android:background="#A0C4FF"
-        android:text="カレンダー"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/HomeBackground"
         android:layout_width="466dp"
         android:layout_height="768dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,5 +18,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.918"
         app:srcCompat="@drawable/topic01" />
+
+    <ImageButton
+        android:id="@+id/ButtonKarenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buttonkarenda" />
+
+    <ImageButton
+        android:id="@+id/ButtonSinnri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonUranai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonKarenda"
+        app:srcCompat="@drawable/buttonsinnri" />
+
+    <ImageButton
+        android:id="@+id/ButtonUranai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/HomeBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonuranai" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
