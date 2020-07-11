@@ -15,6 +15,7 @@
         android:layout_marginTop="508dp"
         android:background="#ffc6ff"
         android:text="占い"
+        android:onClick="goToUranaiSelect"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
