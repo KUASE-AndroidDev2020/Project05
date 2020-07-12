@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UranaiSelect"></activity>
+        <activity android:name=".torannpuuranaikekka"></activity>
+        <activity android:name=".torannpuuranai" />
+        <activity android:name=".UranaiSelect" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
