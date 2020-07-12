@@ -8,68 +8,49 @@
     android:scrollbarSize="10dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="508dp"
-        android:background="#ffc6ff"
-        android:text="占い"
-        android:onClick="goToUranaiSelect"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="368dp"
-        android:background="#bdb2ff"
-        android:text="心理テスト"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="125dp"
-        android:layout_height="45dp"
-        android:text="運カレ"
-        android:textSize="36sp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="417dp"
+        android:layout_height="743dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:srcCompat="@drawable/topic01" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="236dp"
-        android:background="#A0C4FF"
-        android:text="カレンダー"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:text="〜あんたの運勢見える化しちゃる★～"
-        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.59"
+        app:srcCompat="@drawable/buttonkarenda" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.746"
+        app:srcCompat="@drawable/buttonsinnri" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@drawable/buttonuranai" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
