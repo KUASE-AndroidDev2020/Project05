@@ -10,9 +10,11 @@
         android:id="@+id/mainBackground"
         android:layout_width="417dp"
         android:layout_height="739dp"
-        app:srcCompat="@drawable/mainbackground"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainbackground" />
 
     <ImageView
         android:id="@+id/kokubann"
