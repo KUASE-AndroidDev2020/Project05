@@ -31,10 +31,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kokubann"
-        app:layout_constraintVertical_bias="0.128"
+        app:layout_constraintVertical_bias="0.131"
         app:srcCompat="@drawable/buttontorannpu" />
 
     <ImageButton
@@ -43,10 +43,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/mainBackground"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/torannpubutton"
-        app:layout_constraintVertical_bias="0.232"
+        app:layout_constraintVertical_bias="0.233"
         app:srcCompat="@drawable/buttonsuji" />
 
     <ImageButton
