@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".O_Ketuekikekka"></activity>
+        <activity android:name=".Sinnrikekka4"></activity>
+        <activity android:name=".Sinnrikekka3" />
+        <activity android:name=".sinnrikekka2" />
+        <activity android:name=".Sinnrikekka1" />
+        <activity android:name=".Sinnritesutomonndai" />
+        <activity android:name=".O_Ketuekikekka" />
         <activity android:name=".AB_Ketuekikekka" />
         <activity android:name=".B_Ketuekikekka" />
         <activity android:name=".A_Ketuekikekka" />
