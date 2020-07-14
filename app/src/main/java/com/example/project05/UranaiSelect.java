@@ -23,4 +23,9 @@ public class UranaiSelect extends AppCompatActivity {
         Intent toUranai=new Intent(this, torannpuuranai.class);
         startActivity(toUranai);
     }
+
+    public void goToKetuekiuranai(View view) {
+        Intent toUranai=new Intent(this, Ketuekiuranai.class);
+        startActivity(toUranai);
+    }
 }
