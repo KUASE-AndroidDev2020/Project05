@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent toUranai=new Intent(this, UranaiSelect.class);
         startActivity(toUranai);
     }
+
+    public void goTosinnritesutomonndai(View view) {
+        Intent toSinnri=new Intent(this, Sinnritesutomonndai.class);
+        startActivity(toSinnri);
+    }
 }

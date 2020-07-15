@@ -20,7 +20,12 @@
         android:id="@+id/imageButton22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/nextbutton"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="648dp" />
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:onClick="goToMainActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/nextbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
