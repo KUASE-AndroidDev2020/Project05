@@ -21,11 +21,12 @@
         android:id="@+id/imageButton24"
         android:layout_width="158dp"
         android:layout_height="70dp"
+        android:onClick="goToMainActivity"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.899"
+        app:layout_constraintVertical_bias="0.905"
         app:srcCompat="@drawable/nextbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

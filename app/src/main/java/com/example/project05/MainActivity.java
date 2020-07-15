@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent toSinnri=new Intent(this, Sinnritesutomonndai.class);
         startActivity(toSinnri);
     }
+
+    public void goTokarennda(View view) {
+        Intent toSinnri=new Intent(this, Karenda.class);
+        startActivity(toSinnri);
+    }
 }
